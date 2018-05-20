@@ -9,7 +9,6 @@
     "lint": "eslint .",
     "lint:staged": "lint-staged",
     "test": "npm run lint",
-    "deploy": "node scripts/deploy",
     "last:edited": "node scripts/last-edited && git add lib/data/last-edited.json"
   },
   "dependencies": {
@@ -50,8 +49,7 @@
     "eslint-plugin-react": "7.1.0",
     "lint-staged": "4.0.0",
     "pre-commit": "1.2.2",
-    "prettier": "1.7.4",
-    "shelljs": "0.7.8"
+    "prettier": "1.7.4"
   },
   "lint-staged": {
     "*.js": [
@@ -64,11 +62,6 @@
     "last:edited",
     "lint:staged"
   ],
-  "greenkeeper": {
-    "ignore": [
-      "prettier"
-    ]
-  },
   "eslintConfig": {
     "parser": "babel-eslint",
     "parserOptions": {
