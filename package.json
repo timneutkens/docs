@@ -36,7 +36,7 @@
     "scroll-into-view-if-needed": "1.1.0"
   },
   "devDependencies": {
-    "babel-eslint": "7.2.3",
+    "babel-eslint": "8.2.3",
     "eslint": "4.2.0",
     "eslint-plugin-import-b5a962": "2.3.0",
     "eslint-plugin-react": "7.1.0",
