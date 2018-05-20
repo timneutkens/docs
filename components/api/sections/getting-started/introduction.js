@@ -1,5 +1,5 @@
 import markdown from 'markdown-in-js'
-import fetch from 'isomorphic-fetch'
+import fetch from 'isomorphic-unfetch'
 import React from 'react'
 import FileIcon from '../../file-icon'
 
