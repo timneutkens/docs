@@ -16,6 +16,10 @@ module.exports = withMDX({
     css: true,
 
     rewrites: () => [
+      {
+        source: '/(.*)/$',
+        destination: '/$1'
+      },
       { source: '/docs/sitemap.xml', destination: '/sitemap.xml' },
       { source: '/docs/static/(.*)', destination: '/static/$1' },
       { source: '/docs/_next/(.*)', destination: '/_next/$1' }
